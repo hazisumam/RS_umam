@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <title>Dashboard | RS HUMA BB</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
-    <!-- Custom Navbar CSS -->
-    <link rel="stylesheet" href="navbar.css">
-</head>
-<body>
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
     <div class="container-fluid px-4">
 
         <!-- BRAND -->
-        <a class="navbar-brand fw-bold text-white" href="index.html">
+        <a class="navbar-brand fw-bold text-white" href="vdokter.php">
             <i class="bi bi-hospital-fill"></i> RS HUMA BB
         </a>
 
@@ -32,27 +18,27 @@
             <!-- MENU KIRI -->
             <ul class="navbar-nav align-items-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="vdokter.php">
                         <i class="bi bi-speedometer2"></i> Dashboard
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="dokter.html">
+                    <a class="nav-link" href="vdokter.php">
                         <i class="bi bi-person-lines-fill"></i> Dokter
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="tambah-dokter.html">
+                    <a class="nav-link" href="dokter.php">
                         <i class="bi bi-plus-circle-dotted"></i> Tambah Dokter
                     </a>
                 </li>
             </ul>
 
             <!-- ADMIN (CLICK = LOGOUT) -->
-            <a href="login.html"
-               class="ms-auto admin-info text-decoration-none"
+            <a href="login.php"
+               class="ms-auto admin-info"  
                onclick="return confirm('Keluar dari aplikasi?')">
                 <i class="bi bi-person-circle"></i>
                 <span>Admin</span>
@@ -61,9 +47,3 @@
         </div>
     </div>
 </nav>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-</html>
