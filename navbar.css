@@ -1,0 +1,43 @@
+.navbar-custom {
+    background: linear-gradient(180deg, #1f3b73, #244a8d);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 1.4rem;
+}
+
+/* MENU */
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #ffdd57 !important;
+}
+
+/* ADMIN (LOGOUT) */
+.admin-info {
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.admin-info i {
+    font-size: 1.5rem;
+}
+
+.admin-info:hover {
+    background-color: rgba(255,255,255,0.15);
+    color: #ffdd57;
+}
